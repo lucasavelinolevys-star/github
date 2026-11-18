@@ -1,0 +1,9 @@
+soma = 0
+n1 = int(input("Digite um número inteiro (Digite 0 para finalizar): "))
+contador = 0
+while n1 > 0:
+    contador += n1
+    print(" resultado", contador)
+    n1 = int(input("Proximo número (Digite 0 para finalizar): "))
+if n1 <=0:
+    print("Apenas números positivos. Total de números positivos é: ", contador)
